@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+.top-bar{
+  margin: 0px;
+
+}
+
+.top-bar li{
+    display: inline-block;
+    margin-right: 35px;
+    vertical-align: middle;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 6px;
+}
+
+.top-bar li:hover{
+    color: #282c34;
+}
+
+.header-top{
+  background: #f3f3f3;
+  padding: 15px;
+  box-shadow: 1px 1px 11px 1px #ccccccb3;
+}
+
+.content{
+    padding: 20px;
+}
+
+.planet-list{
+    height: 60vh;
+    width: 300px;
+    border-radius: 4px;
+    overflow-y: auto;
+    margin: 0px;
+    text-align: center;
+    border: 1px solid #ccc;
+
+}
+
+.planet-list li{
+    list-style: none;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    background: #fff;
+    border-left: 3px solid #006984;
+    border-radius: 4px;
+}
+
+.content{
+    background: #f9f9f9;
+   overflow-y: hidden;
+    height: 100vh;
+}
+
+body{
+    overflow: hidden;
+}
+
+.op0{
+    opacity: 0;
+}
+
+b{
+    margin-right: 10px;
+}
+
+.home-div{
+    background: #e8e8e8;
+    padding: 15px;
+    text-align: center;
+    border-radius: 14px;
+}
